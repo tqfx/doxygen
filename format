@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+clang-format -style=file -i $(find "$@" -regex '.*\.\(c\|h\|cc\|cu\|hh\|cxx\|hxx\|cpp\|hpp\)') --verbose
